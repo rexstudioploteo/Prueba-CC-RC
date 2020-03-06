@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+}
+.hijo2 {
+    /* width: 100%; */
+    padding: 2rem;
+    padding-top: 1rem;
+    color: white;
+    text-align: right;
+    display: inline;
+    }
+
+.hijo3 {
+    display: inline-block;
+    padding-left: 20rem;
+    width: 50%;
+}
+.contenido1 {
+    background-color: aquamarine;
+}
+
+.header {
+    background-color: aquamarine;
+    float: center;
+}
+li {
+    padding-left: 3rem;
+    display: inline;
+  
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+nav {
+    padding: 1rem;
+}
+
+.texto2 {
+    text-align: left;
+    background-color:  aquamarine;
+    color: white;
+    padding-left: 5rem;
+    padding-bottom: 1px;
+    display: inline-block;
+}
+
+.hijo1 {
+    width: 300px;
+    padding-left: 3rem;
+}
+.seccion1 {
+    width: 30%;
+    vertical-align: middle;
+    padding-left: 15rem;
+    text-align: right;
+    display: inline-block;
+    padding-bottom: 3rem;
+}
+.seccion2 {
+    width: 30%;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    text-align: left;
+    display: inline-block;
+    padding-bottom: 3rem;
+}
+.hijo5 {
+    width: 50%;
+}
+.bloque {
+    background-color: grey;
+    padding: 3rem;
+}
+.hijo4 {
+    width: 50%;
+}
+.fono {
+    display: inline-block;
+}
+.textoperros {
+    padding-left: 20rem;
+    display: inline-block;
+}
+.face {
+    padding-left: 20rem;
+    width: 50px;
+    display: inline-block;
+}
+.email {
+    width: 50px;
+    display: inline-block;
+}
+.insta {
+    width: 50px;
+    display: inline-block;
+}
+.gogle+ {
+    width: 50px;
+    display: inline-block;
+}
+
+.noencontrada {
+    font-size: 5rem;
+    padding: 5rem;
+    text-align: center;
+}
+.campana {
+    border: 2px black;
+    color: black;
+}
+
+/* acá esta lo de los rescatados */
+.row {
+    display: flex;
+}
+
+.imagen1 {
+    width: 100%;
+    height: 100px;
+} 
+.imagen2 {
+width: 100%;
+height: 300px;
+} 
+
+.imagen3 {
+    width: 100%;
+    height: 200px;
+}
+.imagen4 {
+    width: 100%;
+    height: 200px;
+} 
+
+.imagen5 {
+width: 100%;
+height: 400px;
+} 
+
+.imagen6 {
+    width: 100%;
+    height: 500px;
+    } 
+    .imagen7 {
+        width: 100%;
+        height: 100px;
+        }
+
+img {
+    width: 100%;
+    height: 100%;
+}

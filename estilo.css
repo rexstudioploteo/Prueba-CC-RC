@@ -1,0 +1,661 @@
+*{margin: 0; padding: 0;}
+
+.cabecera {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background:#85D4B7;
+}
+    .logo {
+        display: flex;
+        width:75%;
+        height: 50px;
+        overflow: hidden;
+        background:#85D4B7;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo img{
+        width: 75%;
+        height: auto;
+    }
+      @supports(object-fit: content){
+          .logo img{
+            height: auto;
+            object-fit: content;
+            object-position: center center;
+          }
+    }
+    .menu {
+        display: flex;
+        width: 100%;
+        height: 49px;
+        background-color:#6DCCAA;
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        font-style: bold;
+        border: solid 1px #85D4B7;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagenprincipal {
+        width: 100%;
+        height:150px;
+        overflow: hidden;
+        background:#85D4B7;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagenprincipal img{
+        width: 100%;
+        height: auto;
+    }
+      @supports(object-fit: cover){
+          .imagenprincipal img{
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+          }
+    .imagenperro{
+        display: none;
+    }
+    .telefono{
+        display: none;
+    }
+    .adopcion{
+        display: none;
+    }
+    .nav  {
+        background-color: #6DCCAA;
+    }
+    
+    .redes {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100%;
+        height: 55px;
+        background-color: #6DCCAA;
+    }
+    
+    .facebook {
+        width: 15%;
+        height: auto;
+        overflow: hidden;
+        margin: 2px;
+    }
+    .facebook img{
+            width: 75%;
+            height: auto;
+    }
+    @supports(object-fit: contain){
+              .facebook img{
+                height: auto;
+                object-fit: contain;
+                object-position: center center;
+              }
+        }
+        .google {
+            width: 15%;
+            height: auto;
+            overflow: hidden;
+            margin: 2px;
+    }
+    .google img{
+            width: 75%;
+            height: auto;
+    }
+    @supports(object-fit: contain){
+              .google img{
+                height: auto;
+                object-fit: contain;
+                object-position: center center;
+    }
+}
+    .instagram {
+        width: 15%;
+        height: auto;
+        overflow: hidden;
+        margin: 2px;
+}
+    .instagram img{
+        width: 75%;
+        height: auto;
+}
+@supports(object-fit: contain){
+          .instagram img{
+            height: auto;
+            object-fit: contain;
+            object-position: center center;
+    }
+}  
+    .sobre {
+        width: 15%;
+        height: auto;
+        overflow: hidden;
+        margin: 2px;
+}
+    .sobre img{
+        width: 75%;
+        height: auto;
+}
+@supports(object-fit: contain){
+          .sobre img{
+            height: auto;
+            object-fit: contain;
+            object-position: center center;
+        }
+    }
+}
+.texto1 {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    text-align: right;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+
+h1 {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-style: bold;
+    color: black;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: black;
+}
+
+.texto2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    margin-left:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+.rescue {
+    display: flex;
+    flex-direction: row-reverse;
+    width:100%;
+}
+.rescate {
+    width: 55%;
+    height: auto;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.rescate img{
+    width: 100%;
+    height: auto;
+}
+@supports(object-fit: contain){
+      .rescate img{
+        height: auto;
+        object-fit: contain;
+        object-position: center center;
+    }
+}
+.food{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.comida {
+    width: 55%;
+    height: auto;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.comida img{
+    width: 100%;
+    height: auto;
+}
+@supports(object-fit: contain){
+      .comida img{
+        height: auto;
+        object-fit: contain;
+        object-position: center center;
+    }
+}
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-start;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+A:link {text-decoration: none }
+A:visited {color: black;
+    text-decoration: none }
+A:hover { color: black;
+    text-decoration: none }
+
+.campañas{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 0.5rem;
+    border: solid 2px black;
+    width: 20%;
+    margin-left: 10px;
+    padding: 2px;
+}
+.ajuste{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    background-color: black;
+    justify-content: center;
+}
+.enconstruccion {
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    margin: 10px;
+}
+.enconstruccion img{
+    width: 100%;
+    height: auto;
+}
+@supports(object-fit: contain){
+      .enconstruccion img{
+        height: auto;
+        object-fit: contain;
+        object-position: center center;
+      }
+}
+.galeria { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#85D4B7;
+    width: 100%;
+    height: 250px;
+    margin-top:5px;
+}
+.tresperros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 29%;
+    height: 240px;
+    margin: 3px;
+}
+.dosperros1 {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    width: 20%;
+    height: 240px;
+}
+.dosperros2{
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 39%;
+    height: 240px;
+    background-color:#85D4B7 ;
+    margin: 3px;
+}
+.perro1 {
+    width: 100%;
+    height: 75px;
+    overflow: hidden;
+    margin: auto;
+}
+.perro1 img{
+    width: 100%;
+    height: auto;
+}
+@supports(object-fit: cover){
+      .perro1 img{
+        height: auto;
+        object-fit: cover;
+        object-position: center center;
+      }
+    }
+.perro2 {
+        width: 100%;
+        height: 75px;
+        overflow: hidden;
+        margin: auto;
+    }
+.perro2 img{
+        width: 100%;
+        height: auto;
+    }
+    @supports(object-fit: cover){
+.perro2 img{
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
+}
+}
+.perro3 {
+    width: 100%;
+    height: 75px;
+    overflow: hidden;
+    margin: auto;
+}
+.perro3 img{
+    width: 100%;
+    height: auto;
+}
+@supports(object-fit: cover){
+.perro3 img{
+height: auto;
+object-fit: cover;
+object-position: center center;
+}
+}       
+.perro4 {
+    width: 100%;
+    height: 115px;
+    overflow: hidden;
+    margin: auto;
+}
+.perro4 img{
+width: 100%;
+height: auto;
+}
+@supports(object-fit: cover){
+    .perro4 img{
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
+}
+}
+.perro5 {
+    width: 100%;
+    height: 115px;
+    overflow: hidden;
+    margin: auto;
+}
+.perro5 img{
+width: 100%;
+height: auto;
+}
+@supports(object-fit: cover){
+    .perro5 img{
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
+}
+}
+.perro6 {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    margin: auto;
+}
+.perro6 img{
+width: 100%;
+height: auto;
+}
+@supports(object-fit: cover){
+    .perro6 img{
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
+}
+}
+.perro7 {
+    width: 100%;
+    height: 75px;
+    overflow: hidden;
+    margin: auto;
+}
+.perro7 img{
+width: 100%;
+height: auto;
+}
+@supports(object-fit: cover){
+    .perro7 img{
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
+}
+}
+.firma {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(167, 161, 161);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: black;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+@media (min-width: 401px) {
+
+    .cabecera{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+        height: 55px;
+        background-color: #85D4B7;
+        
+    }
+        .logo {
+            display: flex;
+            width:20%;
+            height: 45px;
+            overflow: hidden;
+            background:#85D4B7;
+            margin-left: 15px;
+            justify-content:flex-start;
+            align-items:left;
+        }
+        .logo img{
+            width: 75%;
+            height: auto;
+        }
+          @supports(object-fit: content){
+              .logo img{
+                height: auto;
+                object-fit: content;
+                object-position: center center;
+              }
+        }
+        .menu {
+            width: 10%;
+            height: 45px;
+            background-color:#85D4B7;
+            text-align: center;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.7rem;
+            font-style: bold;
+            border: solid 1px #85D4B7;
+            justify-content:center;
+            align-items: center;
+        }
+    .imagenhome{
+        display: flex;
+        width: 100%;
+        height: 220px;
+        background-color: #6DCCAA;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagenprincipal {
+        display: none;
+     }
+
+    .imagenperro {
+        display: flex;
+        width: 80%;
+        height: 180px;
+        overflow: hidden;
+        background-color: #6DCCAA;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagenperro img{
+        width: 100%;
+        height: auto;
+    }
+      @supports(object-fit: cover){
+          .imagenperro img{
+            height: auto;
+            object-fit: cover;
+            object-position: center center;
+          }
+}
+.redes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 55px;
+    background-color: #6DCCAA;
+}
+.telefono{
+    width: 33%;
+    display: flex;
+    color: white;
+    font-size: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.adopcion{
+    width: 33%;
+    display: flex;
+    color: white;
+    font-size: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.facebook {
+    width: 5%;
+    height: auto;
+    overflow: hidden;
+    margin: 2px;
+}
+.facebook img{
+        width: 75%;
+        height: auto;
+}
+@supports(object-fit: contain){
+          .facebook img{
+            height: auto;
+            object-fit: contain;
+            object-position: center center;
+          }
+    }
+    .google {
+        width: 5%;
+        height: auto;
+        overflow: hidden;
+        margin: 2px;
+}
+.google img{
+        width: 75%;
+        height: auto;
+}
+@supports(object-fit: contain){
+          .google img{
+            height: auto;
+            object-fit: contain;
+            object-position: center center;
+}
+}
+.instagram {
+    width: 5%;
+    height: auto;
+    overflow: hidden;
+    margin: 2px;
+}
+.instagram img{
+    width: 75%;
+    height: auto;
+}
+@supports(object-fit: contain){
+      .instagram img{
+        height: auto;
+        object-fit: contain;
+        object-position: center center;
+}
+}  
+.sobre {
+    width: 5%;
+    height: auto;
+    overflow: hidden;
+    margin: 2px;
+}
+.sobre img{
+    width: 75%;
+    height: auto;
+}
+@supports(object-fit: contain){
+      .sobre img{
+        height: auto;
+        object-fit: contain;
+        object-position: center center;
+    }
+}
+.texto1 {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    text-align: right;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+.texto2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    margin-left:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+.galeria{
+    display: none;
+}
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+}
+.campañas{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-size: 1rem;
+    border: solid 2px black;
+    width: 100px;
+    margin-left: 10px;
+    padding: 2px;}
+}
